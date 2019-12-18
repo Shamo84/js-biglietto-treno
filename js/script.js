@@ -12,4 +12,5 @@ if (eta < 18) {
 else if (eta > 65) {
   prezzo = prezzo * 0.6;
 }
-alert("il prezzo del biglietto è: " + prezzo + " €")
+
+document.getElementById('risultato').innerHTML = "il prezzo del biglietto è: " + prezzo + " €";
